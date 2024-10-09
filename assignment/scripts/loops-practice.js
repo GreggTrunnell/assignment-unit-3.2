@@ -36,6 +36,10 @@ for (let i =2; i < 12; i+=2){
 console.log('STRETCH: countdown from 5 to 0');
 
 
+
+
+
+
 // 2. For of loops  
 console.log('---- 2. For Of loop ----');
 let stars = ['Polaris', 'Gacrux', 'Formalhaut', 'Rigel', 'Deneb']
@@ -58,8 +62,10 @@ console.log('---- 3. While loop ----');
 
 // 3.a. TODO: Write a while loop to console.log each star in the 'stars' array
 console.log('Some stars using while:');
-
-while 
+i=0;
+while (i < stars.length){ 
+  console.log(stars[i]); i++;
+}
 
 
 
