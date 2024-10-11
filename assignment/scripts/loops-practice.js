@@ -39,8 +39,6 @@ for (let i=5; i >= 0; i--){
 }
 
 
-
-
 // 2. For of loops  
 console.log('---- 2. For Of loop ----');
 let stars = ['Polaris', 'Gacrux', 'Formalhaut', 'Rigel', 'Deneb']
@@ -51,6 +49,8 @@ for (i of stars){
   console.log(i);
 }
 
+//I like how the for of loops code is concise but little harder to wrap my head around.
+//Used for loop below for reference
 //GT code below runs properly but is not a for of loop
 /*for (let i= 0; i < stars.length; i++){
   console.log(stars[i]);
@@ -68,19 +68,16 @@ while (i < stars.length){
   console.log(stars[i]); i++;
 }
 
-
-
 // 3.b. TODO: Write a while loop to console.log the numbers from 0 to 5
 console.log('count from 0 to 5');
 count=0;
 while (count < 6){console.log(count); count++;
-
 }
-
+//console.log(count); tried to figure out why the output goes to six
 
 // 3.c. TODO: Write a while loop to console.log the numbers from 10 to 5
 console.log('count backwards from 10 to 5');
 count=10;
 while (count > 4){console.log(count); count--;
-
 }
+//console.log(count); tried to figure out why the output goes down to 4)
